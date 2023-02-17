@@ -6,33 +6,33 @@
 }
 
 :root {
-  --color-primary: #191d2b;
-  --color-secondary: #27ae60;
-  --color-white: #ffffff;
-  --color-black: #000;
-  --color-grey0: #f8f8f8;
-  --color-grey-1: #dbe1e8;
-  --color-grey-2: #b2becd;
-  --color-grey-3: #6c7983;
-  --color-grey-4: #454e56;
-  --color-grey-5: #2a2e35;
-  --color-grey-6: #12181b;
+  --color-primary: hsl(227, 58%, 5%);
+  --color-secondary: hsl(249, 92%, 49%);
+  --color-white: hsl(0, 0%, 100%);
+  --color-black: hsl(0, 0%, 0%);
+  --color-grey0: hsl(0, 0%, 97%);
+  --color-grey-1: hsl(212, 37%, 68%);
+  --color-grey-2: hsl(11, 40%, 92%);
+  --color-grey-3: hsl(206, 22%, 48%);
+  --color-grey-4: hsl(208, 11%, 30%);
+  --color-grey-5: hsl(218, 12%, 19%);
+  --color-grey-6: hsl(200, 20%, 9%);
   --br-sm-2: 14px;
-  --box-shadow-1: 0 3px 15px rgba(0, 0, 0, 0.3);
+  --box-shadow-1: 0 3px 15px hsla(0, 0%, 0%, 0.3);
 }
 
 .light-mode {
-  --color-primary: #ffffff;
-  --color-secondary: #f56692;
-  --color-white: #454e56;
-  --color-black: #000;
-  --color-grey0: #f8f8f8;
-  --color-grey-1: #6c7983;
-  --color-grey-2: #6c7983;
-  --color-grey-3: #6c7983;
-  --color-grey-4: #454e56;
-  --color-grey-5: #f8f8f8;
-  --color-grey-6: #12181b;
+  --color-primary: hsl(0, 0%, 100%);
+  --color-secondary: hsl(16, 100%, 50%);
+  --color-white: hsl(234, 94%, 52%);
+  --color-black: hsl(226, 39%, 37%);
+  --color-grey0: hsl(16, 100%, 50%);
+  --color-grey-1: hsl(231, 51%, 48%);
+  --color-grey-2: hsl(16, 100%, 59%);
+  --color-grey-3: hsl(0, 0%, 100%);
+  --color-grey-4: hsl(234, 94%, 52%);
+  --color-grey-5: hsl(228, 24%, 96%);
+  --color-grey-6: hsl(200, 20%, 9%);
 }
 
 body {
